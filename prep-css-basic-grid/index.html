@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Basic Grid</title>
+  <style>
+    .container {
+      max-width: 1250px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      max-width: calc(100% / 3);
+      flex: 1;
+      background-color: lightgray;
+      margin: 10px;
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus lacus quis nisi vehicula, et lobortis elit
+        commodo. Integer venenatis orci imperdiet, scelerisque augue at, maximus sem. Duis vulputate vestibulum vestibulum. Duis
+        sit amet massa.</p>
+        <img src="images/left-image.jpg">
+      </div>
+      <div class="column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et eleifend est, et facilisis ante. Praesent volutpat
+        congue lacinia. Etiam suscipit iaculis malesuada. Nam diam ipsum, efficitur ultrices velit et, laoreet tempor lorem.
+        Fusce varius.</p>
+        <img src="images/center-image.jpg">
+      </div>
+      <div class="column">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet magna non justo facilisis congue. Nam
+        volutpat quam in viverra molestie. Suspendisse potenti. Maecenas aliquet quam et urna pharetra consectetur. Integer
+        magna est, lobortis eu.</p>
+        <img src="images/right-image.jpg">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
