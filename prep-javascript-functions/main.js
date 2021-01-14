@@ -38,6 +38,11 @@ function cubeNumber(number) {
   return number ** 3;
 }
 
+function returnMathSentence(num1, num2) {
+  return "If you add " + num1 + " and " + num2 + " together, you get " +
+    (num1 + num2) + ".";
+}
+
 var addTwoNumbersResult = addTwoNumbers(2, 2);
 console.log("addTwoNumbers Exercise:", addTwoNumbersResult);
 
@@ -67,3 +72,6 @@ console.log("returnFullName Exercise:", returnFullNameResult);
 
 var cubeNumberResult = cubeNumber(5);
 console.log("cubeNumber Exercise:", cubeNumberResult);
+
+var returnMathSentenceResult = returnMathSentence(5, 12);
+console.log("returnMathSentence Exercise:", returnMathSentenceResult);
