@@ -26,6 +26,10 @@ function subtractTwoNumbers(num1, num2) {
   return num1 - num2;
 }
 
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+
 var addTwoNumbersResult = addTwoNumbers(2, 2);
 console.log("addTwoNumbers Exercise:", addTwoNumbersResult);
 
@@ -46,3 +50,6 @@ console.log("multiplyAndDivideBy5 Exercise:", multiplyAndDivideBy5Result);
 
 var subtractTwoNumbersResult = subtractTwoNumbers(22, 7);
 console.log("subtractTwoNumbers Exercise:", subtractTwoNumbersResult);
+
+var getCircleCircumferenceResult = getCircleCircumference(5);
+console.log("getCircleCircumference Exercise:", getCircleCircumferenceResult);
