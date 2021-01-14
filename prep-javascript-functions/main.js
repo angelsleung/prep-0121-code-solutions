@@ -30,6 +30,10 @@ function getCircleCircumference(radius) {
   return 2 * Math.PI * radius;
 }
 
+function returnFullName(firstName, lastName) {
+  return firstName + " " + lastName;
+}
+
 var addTwoNumbersResult = addTwoNumbers(2, 2);
 console.log("addTwoNumbers Exercise:", addTwoNumbersResult);
 
@@ -53,3 +57,6 @@ console.log("subtractTwoNumbers Exercise:", subtractTwoNumbersResult);
 
 var getCircleCircumferenceResult = getCircleCircumference(5);
 console.log("getCircleCircumference Exercise:", getCircleCircumferenceResult);
+
+var returnFullNameResult = returnFullName("Juan", "Ramirez");
+console.log("returnFullName Exercise:", returnFullNameResult);
