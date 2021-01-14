@@ -22,6 +22,10 @@ function multiplyAndDivideBy5(num1, num2) {
   return num1 * num2 / 5;
 }
 
+function subtractTwoNumbers(num1, num2) {
+  return num1 - num2;
+}
+
 var addTwoNumbersResult = addTwoNumbers(2, 2);
 console.log("addTwoNumbers Exercise:", addTwoNumbersResult);
 
@@ -39,3 +43,6 @@ console.log("addAndMultiplyBy5 Exercise:", addAndMultiplyBy5Result);
 
 var multiplyAndDivideBy5Result = multiplyAndDivideBy5(35, 10);
 console.log("multiplyAndDivideBy5 Exercise:", multiplyAndDivideBy5Result);
+
+var subtractTwoNumbersResult = subtractTwoNumbers(22, 7);
+console.log("subtractTwoNumbers Exercise:", subtractTwoNumbersResult);
