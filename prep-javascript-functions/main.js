@@ -14,6 +14,10 @@ function returnDatatype(data) {
   return typeof data;
 }
 
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+
 var addTwoNumbersResult = addTwoNumbers(2, 2);
 console.log("addTwoNumbers Exercise:", addTwoNumbersResult);
 
@@ -25,3 +29,6 @@ console.log("personalizeGreeting Exercise:", personalizeGreetingResult);
 
 var returnDatatypeResult = returnDatatype(1072);
 console.log("returnDatatype Exercise:", returnDatatypeResult);
+
+var addAndMultiplyBy5Result = addAndMultiplyBy5(10, 5);
+console.log("addAndMultiplyBy5 Exercise:", addAndMultiplyBy5Result);
