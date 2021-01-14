@@ -34,6 +34,10 @@ function returnFullName(firstName, lastName) {
   return firstName + " " + lastName;
 }
 
+function cubeNumber(number) {
+  return number ** 3;
+}
+
 var addTwoNumbersResult = addTwoNumbers(2, 2);
 console.log("addTwoNumbers Exercise:", addTwoNumbersResult);
 
@@ -60,3 +64,6 @@ console.log("getCircleCircumference Exercise:", getCircleCircumferenceResult);
 
 var returnFullNameResult = returnFullName("Juan", "Ramirez");
 console.log("returnFullName Exercise:", returnFullNameResult);
+
+var cubeNumberResult = cubeNumber(5);
+console.log("cubeNumber Exercise:", cubeNumberResult);
